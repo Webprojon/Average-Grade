@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SF Pro Display", sans-serif;
+}
+
+main {
+  background-color: rgb(193, 244, 244);
+  height: 100vh;
+  padding: 3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 70vh;
+  margin: auto;
+  background-color: rgb(165, 224, 224);
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.container form {
+  display: flex;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.container form label {
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.container form input {
+  width: 80%;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  background-color: rgb(193, 244, 244);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0.7rem;
+}
+
+.container h1 {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
+
+.container h2 {
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 1rem;
+  background-color: rgb(193, 244, 244);
+  border-radius: 0.3rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.container h5 {
+  letter-spacing: 0.1rem;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 0.3rem 0;
+}
+
+.container h2 span:nth-child(1) {
+  color: rgb(73, 18, 240);
+  font-weight: bold;
+}
+
+.container h2 span:nth-child(2) {
+  color: rgb(11, 224, 25);
+  font-weight: bold;
+}
+
+.container h2 #badspan {
+  color: red;
+}
+
+.container .btns {
+  margin: 1rem 0;
+}
+
+.container .btns button {
+  padding: 0.6rem 2.2rem;
+  border: none;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: rgb(75, 232, 232);
+}
+
+.container .btns button:hover {
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-3px);
+}
+
+.container .btns button:active {
+  transform: translateY(2px);
+  transition: all 0.2s linear;
+  box-shadow: none;
+}
+
+/* Css Loader Started */
+.loader {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+
+.middle {
+}
+
+.bar {
+  width: 10px;
+  height: 70px;
+  background: #fff;
+  display: inline-block;
+  transform-origin: bottom center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  animation: loader 1.2s linear infinite;
+}
+.bar1 {
+  animation-delay: 0.1s;
+}
+.bar2 {
+  animation-delay: 0.2s;
+}
+.bar3 {
+  animation-delay: 0.3s;
+}
+.bar4 {
+  animation-delay: 0.4s;
+}
+.bar5 {
+  animation-delay: 0.5s;
+}
+.bar6 {
+  animation-delay: 0.6s;
+}
+.bar7 {
+  animation-delay: 0.7s;
+}
+.bar8 {
+  animation-delay: 0.8s;
+}
+
+@keyframes loader {
+  0% {
+    transform: scaleY(0.1);
+  }
+  50% {
+    transform: scaleY(1);
+    background: yellowgreen;
+  }
+  100% {
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}
+
+/* Css Loader Started */

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Link -->
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+
+    <!-- Font Link -->
+    <!-- Main Css Link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Main Css Link -->
+    <title>Calculate Average Mark</title>
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader">
+      <div class="middle">
+        <div class="bar bar1"></div>
+        <div class="bar bar2"></div>
+        <div class="bar bar3"></div>
+        <div class="bar bar4"></div>
+        <div class="bar bar5"></div>
+        <div class="bar bar6"></div>
+        <div class="bar bar7"></div>
+        <div class="bar bar8"></div>
+      </div>
+    </div>
+    <!-- Loader -->
+
+    <!-- Project Container  -->
+    <main>
+      <div class="container">
+        <h1>Enter Your Subjects Mark 😎</h1>
+        <form action="#">
+          <div>
+            <label for="math">Math</label>
+            <input type="number" disabled id="math" autocomplete="off" />
+          </div>
+          <div>
+            <label for="english">English</label>
+            <input type="number" disabled id="english" autocomplete="off" />
+          </div>
+          <div>
+            <label for="physics">Physics</label>
+            <input type="number" disabled id="physics" autocomplete="off" />
+          </div>
+          <div>
+            <label for="chemistry">Chemistry</label>
+            <input type="number" disabled id="chemistry" autocomplete="off" />
+          </div>
+        </form>
+
+        <h5 class="max"></h5>
+        <h5 class="min"></h5>
+        <h2 class="grade"></h2>
+        <div class="btns">
+          <button class="start-btn">Start 😎</button>
+          <button class="calculate-btn" disabled>Calculate 😏</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Project Container  -->
+
+    <!-- Javascript Link -->
+    <script src="./js/app.js"></script>
+    <!-- Javascript Link -->
+  </body>
+</html>
